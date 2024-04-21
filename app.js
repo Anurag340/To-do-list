@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-let items = ["coding","eat","sleep"];
+let items = [];
 let workItems = [];
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
